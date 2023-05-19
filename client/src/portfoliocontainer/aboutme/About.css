@@ -1,0 +1,136 @@
+.about-container {
+    width: 100%;
+    height: 1000px;
+    margin-top: 100px;
+}
+
+.aboutme h3 {
+    padding-top: 50px;
+    color: rgb(11, 11, 11);
+    text-align: center;
+}
+
+.aboutme h5 {
+    color: orange;
+    text-align: center;
+    font-family: cursive;
+}
+
+.aboutme h3:hover {
+    transition: ease-in-out;
+}
+
+.aboutphoto {
+    width: 70%;
+    height: 700px;
+    background-color: rgb(244, 238, 238);
+    margin: auto;
+    padding-right: 20px;
+}
+
+
+.aboutphoto .about-content h3 {
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.aboutphoto .about-content .content-2 {
+    float: right;
+    padding: 50px 50px 50px 50px;
+    width: 450px;
+    height: fit-content;
+    background-color: white;
+    margin: auto;
+    margin-top: -10px;
+}
+
+.hovertext {
+    margin-left: 100px;
+    margin-top: -266px;
+    color: rgb(255, 246, 240);
+    height: 380px;
+    width: 380px;
+    background-color: rgba(240, 158, 150, 0.945);
+    border-radius: 30%;
+    align-items: center;
+    text-align: center;
+    padding: auto;
+
+    visibility: hidden;
+}
+
+.hovertext h4 {
+    padding-top: 150px;
+    text-align: center;
+}
+
+.text {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.aboutphoto .about-profile-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 40%;
+    height: 380px;
+    width: 380px;
+    margin: 0 0px 0 100px;
+
+}
+
+.aboutphoto .about-profile-picture-background {
+    margin-top: 100px;
+    height: 98%;
+    width: 92%;
+    background-image: url(../../assests/home/S.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40%;
+
+}
+
+.aboutphoto .about-profile-picture-background:hover {
+    transform: scale(1.08);
+    transition: 1s ease out;
+
+}
+
+.about-container .buttons {
+    display: flex;
+    margin-top: -80px;
+    margin-left: 550px;
+
+}
+
+.about-container.buttons .btn2 .highlighted-btn {
+    margin: 0 0 0 25px;
+    background-color: rgb(216, 142, 37);
+    color: black;
+    border-radius: 0%;
+
+}
+
+.about-container .buttons .btn2 .highlighted-btn:hover {
+
+    background-color: rgb(11, 11, 11);
+    color: rgb(236, 225, 225);
+}
+
+.about-container .buttons .btn1 .primary-btn {
+    margin: 0 0 0 25px;
+    background-color: rgb(11, 11, 11);
+    color: rgb(236, 225, 225);
+
+
+}
+
+.about-container .buttons .btn1 .primary-btn:hover {
+
+    background-color: rgb(228, 99, 30);
+    color: black;
+}
