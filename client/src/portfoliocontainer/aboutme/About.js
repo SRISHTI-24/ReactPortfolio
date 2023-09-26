@@ -1,6 +1,6 @@
 import React from 'react'
-import './About.css'
 import Typical from 'react-typical'
+import './About.css'
 export default function About() {
     return (
         <div className='about-container'>
@@ -59,7 +59,7 @@ export default function About() {
                 </div>
                 &emsp;&emsp;
                 <div className='btn2'>
-                    <a href='resume.pdf' download='Srishti resume.pdf'>
+                    <a href='srishti+updated+resume+23+July+2023.pdf' download='Srishti resume.pdf'>
                         <button className='btn highlighted-btn'>
                             Get resume
                         </button>

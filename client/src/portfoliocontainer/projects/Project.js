@@ -1,9 +1,9 @@
 import React from 'react'
-import './Project.css'
-import img1 from '../../portfoliocontainer/images/tavelling.jpg'
-import img2 from '../../portfoliocontainer/images/portfolio.jpg'
 import img3 from '../../portfoliocontainer/images/chats.jpg'
 import img4 from '../../portfoliocontainer/images/game.jpg'
+import img2 from '../../portfoliocontainer/images/portfolio.jpg'
+import img1 from '../../portfoliocontainer/images/tavelling.jpg'
+import './Project.css'
 export default function Project() {
     return (
         <div className='projects-container'>
@@ -33,12 +33,12 @@ export default function Project() {
                         <img src={img2} alt='' />
                     </div>
                     <h4>'Portfolio Website'</h4>
-                    <a href='https://github.com/SRISHTI-24/Travello_WebApp_Project' >
+                    <a href='https://github.com/SRISHTI-24/ReactPortfolio' >
                         <button className='btn primary-btn'>
                             Github
                         </button>
                     </a>
-                    <a href=''>
+                    <a href='https://react-portfolio-crch.onrender.com/'>
                         <button className='btn highlighted-btn'>
                             Live-Demo
                         </button>
