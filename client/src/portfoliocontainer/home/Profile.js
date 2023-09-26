@@ -57,9 +57,12 @@ export default function profile() {
                         </span>
                     </div>
                     <div className='profile-options'>
-                        <button className='btn primary-btn'>
+                        <a href='https://www.linkedin.com/in/srishti24/'>
+                                    <button className='btn primary-btn'>
                             Hire Me
                         </button>
+                        </a>
+                        
                         <a href='https://drive.google.com/file/d/1Ieh2nDE-1zkCqeVgEirK_fJ-2cO7RGtf/view?usp=sharing' download='Srishti resume.pdf'>
                             <button className='btn highlighted-btn'>
                                 Get resume

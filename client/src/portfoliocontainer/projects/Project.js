@@ -2,6 +2,8 @@ import React from 'react'
 import img3 from '../../portfoliocontainer/images/chats.jpg'
 import img4 from '../../portfoliocontainer/images/game.jpg'
 import img2 from '../../portfoliocontainer/images/portfolio.jpg'
+import img6 from '../../portfoliocontainer/images/shopping.jpg'
+import img5 from '../../portfoliocontainer/images/stone.jpg'
 import img1 from '../../portfoliocontainer/images/tavelling.jpg'
 import './Project.css'
 export default function Project() {
@@ -72,6 +74,41 @@ export default function Project() {
                         </button>
                     </a>
                     <a href='https://srishti-24.github.io/snake-water-gun/'>
+                        <button className='btn highlighted-btn'>
+                            Live-Demo
+                        </button>
+                    </a>
+                </article>
+                <br></br>
+                
+                <article className='projects-item'>
+                    <div className='projects-image'>
+                        <img src={img6} alt='' />
+                    </div>
+                    <p>'Shoppify'-(An Ecommerce application)</p>
+                    
+                    <a href='https://github.com/SRISHTI-24/Mern-Ecommerce-2023'>
+                        <button className='btn primary-btn'>
+                            Github
+                        </button>
+                    </a>
+                    <a href='https://github.com/SRISHTI-24/Mern-Ecommerce-2023'>
+                        <button className='btn highlighted-btn'>
+                            Live-Demo
+                        </button>
+                    </a>
+                </article>
+                <article className='projects-item'>
+                    <div className='projects-image'>
+                        <img src={img5} alt='' />
+                    </div>
+                    <h4>'Stone Paper Scissor Game'</h4>
+                    <a href='https://github.com/SRISHTI-24/STONE-PAPER-SCISSOR'>
+                        <button className='btn primary-btn'>
+                            Github
+                        </button>
+                    </a>
+                    <a href='https://srishti-24.github.io/STONE-PAPER-SCISSOR/'>
                         <button className='btn highlighted-btn'>
                             Live-Demo
                         </button>

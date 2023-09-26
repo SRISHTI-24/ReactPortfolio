@@ -53,9 +53,12 @@ export default function About() {
             </div>
             <div className='buttons'>
                 <div className='btn1'>
-                    <button className='btn primary-btn'>
+                    <a href='https://www.linkedin.com/in/srishti24/'>
+                        <button className='btn primary-btn'>
                         Hire Me
                     </button>
+                    </a>
+                    
                 </div>
                 &emsp;&emsp;
                 <div className='btn2'>
